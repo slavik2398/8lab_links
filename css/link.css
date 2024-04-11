@@ -1,0 +1,93 @@
+body{
+  background-color: #1b5d4b;
+}
+p{
+  font-size: 50px;
+  color: #694287;
+  text-align: center;
+}
+.b1{
+  font-size: 24px;
+  font-family: cursive;
+  border: 5px double #c6cb12;
+  border-radius: 50%;
+  padding: 15px;
+  background-color: #ca78f7;
+}
+.b1:hover{
+  text-transform: uppercase;
+  background-color: #c6cb12;
+}
+.buttonClass {
+    font-size:14px;
+    font-family:Arial;
+    width:150px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:#d02718;
+    font-weight:bold;
+    font-style:italic;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    text-shadow: 0px 1px 0px #810e05;
+    background:linear-gradient(#c62d1f, #f24437);
+    text-decoration: none;
+  }
+  .buttonClass:hover {
+    background: linear-gradient(#f24437, #c62d1f);
+  }  
+  .button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+  .button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  .button-64:hover span {
+    background: none;
+  }
+  @media (min-width: 768px) {
+    .button-64 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+  ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+  }
+
+  
